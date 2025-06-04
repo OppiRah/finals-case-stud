@@ -1,0 +1,38 @@
+.jumbotron {
+            padding: 4rem 2rem;
+            background-color: #FFF5EE;
+            text-align: center;
+        }
+
+        .carousel-item img {
+            max-height: 500px;
+            object-fit: cover;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: auto;
+            padding: 1rem;
+            background-color: rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s;
+        }
+
+        .carousel-control-prev:hover,
+        .carousel-control-next:hover {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .card {
+            height: 100%;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
